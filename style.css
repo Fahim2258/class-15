@@ -1,0 +1,228 @@
+
+/* *********DEFFULT CSS*********** */
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    Font-family: Open Sans, sans-serif
+}
+.fixed-width{
+    width: 1120px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.float-left{
+    float: left;
+}
+.flot-right{
+    float: right;
+}
+
+/* **************HEADER CSS******************** */
+.header-section {
+    background: #22c3a3;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 90px;
+    margin-top: 10px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{ 
+    text-align: right;
+}
+.header-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+.header-right ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 71px;
+}
+.header-right ul li a:hover{}
+
+/* **********BENNER CSS************ */
+.benner-section {
+    background: url(https://i.ibb.co/gvydPcH/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 280px 0;
+    text-align: center;
+    color: #Fff;
+}
+.benner-section h1 {
+    font-size: 55px;
+}
+.benner-section p {
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+.benner-section a {
+    text-decoration: none;
+    padding: 10px 26px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #0cbf98;
+    border: 1px solid #fff;
+}
+
+.benner-section button {
+    border: none;
+    margin: 37px 0;
+}
+
+
+/* *************service css******************** */
+.service-content {
+    text-align: center;
+    padding: 35px 0;
+}
+.service-content h2 {
+    font-size: 49px;
+    padding: 10px 0;
+}
+.service-content p {
+    color: #767676;
+    font-size: 18px;
+}
+
+.service-item-section {
+    border-bottom: 1px solid #0cbf98;
+    padding-bottom: 50px;
+}
+.service-item {
+    width: 23%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+.service-item span {
+    font-size: 34px;
+    color: #0cbf98;
+    font-weight: bold;
+}
+.service-item h2 {
+    font-size: 26px;
+    margin: 11px 0;
+}
+.service-item p {
+    color: #767676;
+    font-size: 16px;
+}
+
+/* **********About section*************** */
+
+.about-heading {
+    margin-top: 40px;
+    padding: 40px 0;
+}
+.about-heading h2 {
+    font-size: 40px;
+}
+.about-content p {
+    margin-bottom: 30px;
+}
+.about-img{
+    width: 40%;
+    margin-right: 5%;
+}
+.about-content{
+    float: right;
+    width: 55%;
+    color: #767676;
+}
+.about-content h1{
+    font-size: 30PX;
+}
+
+
+
+/* contact section css */
+.contact-section {
+    background: #f6f6f6;
+    padding: 70px 0;
+    margin-top: 50px;
+}
+.contact-section h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.contact-item {
+    width: 33.33%;
+    padding: 30px 0;
+}
+.contact-item span {
+    color: #0dbf9b;
+    font-size: 20px;
+}
+.contact-item h2{}
+.contact-item p{}
+
+/* footer-sectin */
+.footer-bottom{
+    background: #0dbf9b;
+    padding: 20px 0;
+}
+
+.footer-bottom li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-bottom li a {
+    color: #fff;
+    font-size: 25px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+
+
+
+
+
+.footer {
+    background: #222222;
+    padding: 21px 0;
+    color: #575757;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tesdiv{
+    width: 1000px;
+    height: 1200px;
+}
